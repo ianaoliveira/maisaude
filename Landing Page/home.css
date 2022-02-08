@@ -1,0 +1,408 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Extra-Bold;
+    src: url(./fonts/Montserrat-ExtraBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+
+}
+
+
+/*MENU SUPERIOR*/
+
+.menu-superior{
+    display: flex;
+    background-color: #271C58;
+    height: 150px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.menu-superior .logotipo{
+    display: flex;
+    margin-left: 5%;
+
+}
+
+.menu-superior .opcoes-menu{
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    justify-content: space-around;
+
+}
+
+.menu-superior .opcoes-menu a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.menu-superior .opcoes-menu a:hover{
+    background-color: #FF0688;
+}
+
+.menu-superior .opcoes-menu .home{
+    color: #ACCF1D;
+}
+
+.menu-superior .opcoes-menu .manual-de-marca{
+    color: #FFB703;
+}
+
+.menu-superior .opcoes-menu .sobre-nos{
+    color: #0FA0DF;
+}
+
+/*DIV CONTEUDO TODO*/
+
+.conteudo{
+    display: block;
+    background-color: #F4F4F4;
+    align-items: center;
+    background-image: url(fundo-01.png);
+    width: 100%;
+
+}
+
+/*DIV CONTEUDO SOBRE A PRAÇA*/
+.primeiro-conteudo{
+    display: flex;
+    width: 70vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.conteudo .primeiro-conteudo .conteudo .foto-praca{
+    width: 30vw;
+}
+.conteudo .foto-praca{
+    width: 30vw;
+    margin-top: 4px;
+}
+
+.textos-praca{
+    bottom: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.textos-praca .titulo-praca{
+    color: #271C58;
+    font-size: 52px;
+    font-family: Montserrat-Extra-Bold;
+}
+
+.textos-praca .texto-praca{
+    color: #271C58;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: justify;
+    font-weight: normal;
+    font-family: Montserrat-Regular;
+}
+
+/*SEGUNDO CONTEÚDO*/
+.segundo-conteudo{
+    display: flex;
+    background-image: url(padrao.png);
+    position: relative;
+    margin-left: auto;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.video-conceitual{
+    align-self: center;
+}
+
+/*TERCEIRO CONTEÚDO*/
+.terceiro-conteudo{
+    display: block;
+    width: 70vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frase-efeito{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #FF0688;
+    font-size: 50px;
+    font-family: Montserrat-Extra-Bold;
+}
+
+.conteudo-cards{
+    display: flex;
+}
+
+ .cards{
+    display: block;
+    margin: 20px;
+    width: 350px;
+    height: 280px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(106, 115, 129, 0.12);
+    justify-content: center;
+}
+
+.cards{
+    text-align: center;
+    padding: 15px;    
+}
+
+.titulo-c{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.texto-c{
+    font-weight: normal;
+    font-family: Montserrat-Regular;
+}
+
+/*QUARTO CONTEÚDO*/
+
+.quarto-conteudo{
+    display: flex;
+    width: 70vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.foto-hermes{
+    width: 30vw;
+}
+.conteudo .foto-hermes{
+    width: 30vw;
+    margin-top: 4px;
+}
+
+.foto-hermes img{
+    max-width: 400px;
+    max-width: 400px;
+}
+
+.texto-hermes{
+    bottom: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Montserrat-Regular;
+}
+
+.titulo-hermes{
+    color: #271C58;
+    font-size: 52px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Montserrat-Extra-Bold;
+
+}
+
+ .texto-hermes{
+    color: #271C58;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+
+
+/*FOOTER*/
+.footer{
+    height: 250px;
+    background-color: #271C58;
+    color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.footer .footercontent {
+    align-items: center;
+    display: flex;
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.footer .footercontent .logocontainer {
+    margin-right: 100px;
+    margin-left: 5%;
+}
+
+
+.footer .footercontent .logo_branca {
+    width: 300px;
+}
+
+
+.footer .footercontent .contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footercontent .contacts h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.footer .footercontent .contacts p {
+    display: flex;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.footer .footercontent .contacts p > img {
+    margin-right: 8px;
+}
+
+.footer .footercontent .back {
+    /* esse negócio aqui tava atrapalhando a respons */
+    /* margin-left: auto!important; */
+}
+
+.footer .footercontent .back a {
+    color: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.footer .footercontent .back a > img {
+    margin-left: 4px;
+}
+
+@media screen and (max-width:1080px){
+
+    .conteudo {
+        width: 100%;
+    }
+
+
+    .menu-superior {
+        background-color: #271C58;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .imagem {
+        display: flex;
+        justify-content: center;
+    }
+
+    .primeiro-conteudo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .imagem .foto-praca {
+        width: 400px;
+    }
+
+
+    .titulo-praca {
+        margin-top: 30px;
+    }
+
+    .div-do-video {
+        display: flex;
+        flex-direction:row;
+        justify-items: center;
+        justify-content: center;
+    }
+    .video-conceitual {
+        width: 700px;
+        height: auto;
+    }
+
+    .conteudo-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        height: 250px;
+    }
+
+    .menu-superior .opcoes-menu {
+        margin-left: 0;
+    }
+
+    .quarto-conteudo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titulo-hermes {
+        margin-top: 30px;
+    }
+
+    .imagem .foto-hermes {
+        width: 400px;
+    }
+
+    .footer .footercontent {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts {
+        margin: 40px;
+    }
+
+    .footer .footercontent .back {
+        margin-left: 0;
+    }
+
+    .footer {
+        height: auto;
+    }
+}
+
